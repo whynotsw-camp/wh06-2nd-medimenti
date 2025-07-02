@@ -327,8 +327,8 @@ models = {
 
 #### 증상 입력 및 질병 예측
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="img/증상입력.png" width= 380px height=380px>
-  <img src="img/약_추천.png" width=380px  height=380px>
+  <img src="img/증상입력.png" width= 350px height=380px>
+  <img src="img/약_추천.png" width=380px  height=400px>
 </div>
 
 
@@ -341,13 +341,13 @@ models = {
 </div>
 <br>
 <div style="display: flex; justify-content: center; gap: 10px;">
-<img src="img/많이_추천된_약.png" style="width: 380px; height: 350px">
-<img src="img/약별_추천횟수.png" style="width: 380px; height: 350px">
+<img src="img/많이_추천된_약.png" style="width: 400px; height: 350px">
+<img src="img/약별_추천횟수.png" style="width: 400px; height: 380px">
 </div>
 
 #### 마이페이지/회원정보 수정
 <div style="display: flex; justify-content: center; gap: 10px;">
-<img src="img/마이페이지.png" width= 300px height=400px>
+<img src="img/마이페이지.png" width= 350px height=400px>
 <img src="img/회원정보수정.png" width= 500px height=400px>
 </div>
 
@@ -356,9 +356,9 @@ models = {
 
 ## 향후 개선점 : APP(모바일) 사용으로 확대
 <div style='text-align: center;'>
-<img src="img/app_시작화면.png" width=60%>
-<img src="img/app_메인화면.png" width=60%>
-<img src="img/app_통계.png" width=60%>
+<img src="img/app_시작화면.png" width=70%>
+<img src="img/app_메인화면.png" width=70%>
+<img src="img/app_통계.png" width=70%>
 </div>
 
 
