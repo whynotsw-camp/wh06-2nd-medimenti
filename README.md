@@ -181,13 +181,22 @@
 ## 3. 분석 및 모델링
 
 ### 3.1 EDA
-<div>
 <p>환자 수가 가장 많은 Top 10 질병의 발병 빈도수</p>
-<img src='img/EDA_top10.png' width=70%>
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src='img/EDA_top10.png' width=50% height=50%>
+  <img src='img\EDA_top10_1.png' width=50% height=50%>
+</div>
+
+
+<div>
 <p>환자 수가 가장 많은 Top 10 질병의 성별 분포</p>
 <img src='img\질병상위10개_성별.png' width=70%>
 <p>환자 수가 가장 많은 Top 10 질병의 환자 나이 분포</p>
 <img src='img\질병상위10개_환자수.png' width=70%>
+<p>연령대 별 증상 분포</p>
+<img src='img\연령대별증상분포.png' width=70%>
+<p>많이 추천된 약 빈도</p>
+<img src='img\많이_추천된_약_빈도.png' width=70%>
   
 </div>
 
