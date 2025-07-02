@@ -141,11 +141,7 @@
 <br>
 
 ## 2. 데이터 수집 및 설계
-### 2.1 아키텍처 설계
-
-- 내일 추가
-
-### 2.2 데이터 수집 및 전처리
+### 데이터 수집 및 전처리
 #### Kaggle : 질병-환자 정보 Dataset
 - 환자의 `Disease Symptoms and Patient Profile Dataset` 데이터셋에서 증상 발현이 Positive인 칼럼 추출
 - 특정 질병의 등장횟수가 2회 이하인 칼럼 제거 (모델링 학습)
@@ -261,10 +257,10 @@ models = {
 
 # 6. 프로젝트 설계서
 
-## 데이터 아키텍처
-
-![ELT Flow](<img/ELT_Flow.png>)
-
+## 워크 프로세스 설계 및 아키텍처
+<div style="text-align: center;">
+<img src='img\워크프로세스.png'>
+</div>
 <br>
 
 ## 설계 개요
