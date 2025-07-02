@@ -2,13 +2,9 @@
 
 # 🩺MediMento(메디멘토)
 
-<div style="text-align: center;">
-  <figure style="display: inline-block; margin: 0;">
-    <img src="img/medimento.png" width="100" alt="MediMento 로고">
-    <figcaption style="font-size: 14px; color: gray; margin-top: 5px;">
-      MediMento(메디멘토) logo
-    </figcaption>
-  </figure>
+<div>
+  <img src="img/medimento.png" width="100" alt="MediMento 로고">
+  <p> MediMento(메디멘토) logo </p>
 </div>
 
 
@@ -181,13 +177,12 @@
 
 ### 3.1 EDA
 <div>
-  <figure style="display: inline-block; margin: 0;">
-  <img src='img/EDA_top10.png' width=70% alt=EDA_top10>
-    <figcaption style="font-size: 14px; color: gray; margin-top: px;">환자 수가 가장 많은 Top 10 질병의 발병 빈도수</figcaption>
-  <img src='img\질병상위10개_성별.png' width=70%>
-    <figcaption style="font-size: 14px; color: gray; margin-top: px;">환자 수가 가장 많은 Top 10 질병의 성별 분포</figcaption>
-  <img src='img\질병상위10개_환자수.png' width=70%>
-    <figcaption style="font-size: 14px; color: gray; margin-top: px;">환자 수가 가장 많은 Top 10 질병의 환자 나이 분포</figcaption>
+<img src='img/EDA_top10.png' width=70% alt=EDA_top10 >
+  <p>환자 수가 가장 많은 Top 10 질병의 발병 빈도수</p>
+<img src='img\질병상위10개_성별.png' width=70%>
+  <p>환자 수가 가장 많은 Top 10 질병의 성별 분포</p>
+<img src='img\질병상위10개_환자수.png' width=70%>
+  <p>환자 수가 가장 많은 Top 10 질병의 환자 나이 분포</p>
 </div>
 
 
@@ -359,7 +354,7 @@ models = {
 
 <br><br>
 
-## 향후 개선점 : APP
+## 향후 개선점 : APP(모바일) 사용으로 확대
 <div style='text-align: center;'>
 <img src="img/app_시작화면.png" width=60%>
 <img src="img/app_메인화면.png" width=60%>

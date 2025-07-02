@@ -34,6 +34,7 @@ if selected == "질병":
 
     df = df_details.merge(df_users, on="user_id", how="inner")
 
+
     if df.empty:
         st.info("표시할 질병 데이터가 없습니다.")
     else:
@@ -117,17 +118,22 @@ if selected == "질병":
             'Williams Syndrome': '윌리엄스 증후군'
         }
 
+        
         diseases = df['disease'].unique()
-        disease_kor_list = [disease_translation.get(d, d) for d in diseases]
-        selected_kor = st.selectbox("질병을 선택하세요", disease_kor_list)
+        labels = [disease_translation.get(d, d) for d in diseases]
+        selected_label = st.selectbox("질병을 선택하세요", labels)
 
         kor_to_eng = {v: k for k, v in disease_translation.items()}
-        selected_eng = kor_to_eng.get(selected_kor, selected_kor)
-
-        filtered_df = df[df['disease'] == selected_eng]
+        selected_eng = kor_to_eng.get(selected_label, selected_label)
+         
+        #disease_kor_list = [disease_translation.get(d, d) for d in diseases]
+        #selected_kor = st.selectbox("질병을 선택하세요", disease_kor_list)
+        filtered_df = df[df['disease'] == selected_label].copy()
+        
 
         bins = [0, 9, 19, 29, 39, 49, 59, 69, 150]
         labels = ['0-9세','10대','20대','30대','40대','50대','60대','70세 이상']
+        filtered_df = filtered_df.copy()
         filtered_df['age_group'] = pd.cut(filtered_df['age'], bins=bins, labels=labels, right=True)
 
         age_dist = filtered_df['age_group'].value_counts().sort_index()
@@ -135,6 +141,8 @@ if selected == "질병":
             "연령대": age_dist.index,
             "인원수": age_dist.values
         })
+
+
 
         import altair as alt
 
@@ -147,7 +155,7 @@ if selected == "질병":
         ).properties(
             width=600,
             height=400,
-            title=f"🧬 {selected_kor}의 연령대 분포 (Scatter)"
+            title=f"🧬 {selected_label}의 연령대 분포 (Scatter)"
         )
 
         st.altair_chart(chart, use_container_width=True)
@@ -162,7 +170,7 @@ elif selected == "증상":
     """, conn)
     conn.close()
 
-    df = df_users.merge(df_symp, on='user_id', how='inner')
+    df = df_users.merge(df_symp, on='user_id', how='inner').copy()
 
     bins = [0, 9, 19, 29, 39, 49, 59, 69, 150]
     labels = ['0-9','10-19','20-29','30-39','40-49','50-59','60-69','70+']
