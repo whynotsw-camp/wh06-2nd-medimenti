@@ -176,7 +176,7 @@
 ## 3. 분석 및 모델링
 
 ### 3.1 EDA
-<div style="text-align: center;">
+<div>
   <figure style="display: inline-block; margin: 0;">
   <img src='img/EDA_top10.png' width=70% alt=EDA_top10>
     <figcaption style="font-size: 14px; color: gray; margin-top: px;">
