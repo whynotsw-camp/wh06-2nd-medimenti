@@ -197,7 +197,6 @@
 <img src='img\연령대별증상분포.png' width=70%>
 <p>많이 추천된 약 빈도</p>
 <img src='img\많이_추천된_약_빈도.png' width=70%>
-  
 </div>
 
 
