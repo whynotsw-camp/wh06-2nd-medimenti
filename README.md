@@ -174,9 +174,9 @@
 ## 3. 분석 및 모델링
 
 ### 3.1 EDA
-<img src='img/EDA_top10.png' width=50% >
-<img src='img\질병상위10개_성별.png' width=50%>
-<img src='img\질병상위10개_환자수.png' width=50%>
+<img src='img/EDA_top10.png' width=70% >
+<img src='img\질병상위10개_성별.png' width=70%>
+<img src='img\질병상위10개_환자수.png' width=70%>
 
 
 
@@ -299,14 +299,14 @@ models = {
 ## 데이터 설계
 ### ERD
 <div style="text-align: center;">
-  <img src="img/ERD.png" width=80%>
+  <img src="img/ERD.png" width=100%>
 </div>
 
 
 
 ### DB 저장
 <div style='text-align: center;'>
-<img src="img/SQLite.png" width=10%>
+<img src="img/SQLite.png" width=20%>
 </div>
 
 <br><br>
@@ -321,8 +321,8 @@ models = {
 
 #### 증상 입력 및 질병 예측
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="img/증상입력.png" width= 380pxpx height=400px>
-  <img src="img/약_추천.png" width=380px  height=400px>
+  <img src="img/증상입력.png" width= 380px height=380px>
+  <img src="img/약_추천.png" width=380px  height=380px>
 </div>
 
 
