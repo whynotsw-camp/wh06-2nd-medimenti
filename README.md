@@ -41,6 +41,8 @@
 # 2. 주요 내용
 #### 프로젝트 기간
 - 2025-06-26 ~ 2025-07-02 (총 5일)
+#### 팀명
+- MediMenti(메디멘티)
 #### 참여 인원
 
 
@@ -174,9 +176,14 @@
 ## 3. 분석 및 모델링
 
 ### 3.1 EDA
-<img src='img/EDA_top10.png' width=70% >
-<img src='img\질병상위10개_성별.png' width=70%>
-<img src='img\질병상위10개_환자수.png' width=70%>
+<div style="text-align: center;">
+  <figure style="display: inline-block; margin: 0;">
+  <img src='img/EDA_top10.png' width=70% alt=EDA_top10>
+  <figcaption style="font-size: 14px; color: gray; margin-top: px;">
+      환자 수가 가장 많은 Top 10 질병의 발병 빈도수
+    </figcaption>
+  <img src='img\질병상위10개_성별.png' width=70%>
+  <img src='img\질병상위10개_환자수.png' width=70%>
 
 
 
