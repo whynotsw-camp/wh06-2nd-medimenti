@@ -3,9 +3,14 @@
 # 🩺MediMento(메디멘토)
 
 <div style="text-align: center;">
-  <img src="img/medimento.png" width="100">
-  <p> MediMento(메디멘토) logo </p>
+  <figure style="display: inline-block; margin: 0;">
+    <img src="img/medimento.png" width="100" alt="MediMento 로고">
+    <figcaption style="font-size: 14px; color: gray; margin-top: 5px;">
+      MediMento(메디멘토) logo
+    </figcaption>
+  </figure>
 </div>
+
 
 <br><br>
 
@@ -259,7 +264,7 @@ models = {
 
 ## 워크 프로세스 설계 및 아키텍처
 <div style="text-align: center;">
-<img src='img\워크프로세스.png'>
+  <img src='img\워크프로세스.png'>
 </div>
 <br>
 
