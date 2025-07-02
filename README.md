@@ -3,12 +3,8 @@
 # 🩺MediMento(메디멘토)
 
 <div style="text-align: center;">
-  <figure style="display: inline-block; margin: 0;">
-    <img src="img/medimento.png" width="100" alt="MediMento 로고">
-    <figcaption style="font-size: 14px; color: gray; margin-top: 5px;">
-      MediMento(메디멘토) logo
-    </figcaption>
-  </figure>
+<img src="img/medimento.png" width="100" alt="MediMento 로고">
+<p> MediMento(메디멘토) logo </p>
 </div>
 
 
